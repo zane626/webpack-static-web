@@ -3,7 +3,7 @@
 ## 使用
 ```
 $ git clone https://github.com/zane626/webpack-static-web.git
-$ cd webpack-static-web.git
+$ cd webpack-static-web/
 $ npm i
 $ npm start || npm run serve
 ```
