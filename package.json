@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "start": "concurrently 'node-sass  -w -r --output-style compact ./src/scss -o ./src/css' 'browser-sync start --server ./src --files '**/*.html,**/*.css'' ",
         "test": "echo \"Error: no test specified\" && exit 1",
         "http-serve": "http-server ./src -o -c-1",
         "serve": "concurrently 'node-sass  -w -r --output-style compact ./src/scss -o ./src/css' 'browser-sync start --server ./src --files '**/*.html,**/*.css'' "
